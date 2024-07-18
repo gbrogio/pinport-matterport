@@ -18,10 +18,10 @@ To use the MatterportExtension, you need to import it and initialize an instance
 
 ```typescript
 import { PinportClient } from "@pinport/client";
-import { MatterportExtension } from "@pinport/matterport";
+import { PinportMatterportExtension } from "@pinport/matterport";
 
 const pinport = new PinportClient("<api_url>", "<private_key>", {
-  extensions: [matterportExtension],
+  extensions: [PinportMatterportExtension],
 });
 ```
 
