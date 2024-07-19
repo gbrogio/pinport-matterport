@@ -37,7 +37,7 @@ export class MatterportExtension {
 				attachments: [attachment.attach],
 				opacity: pin.opacity,
 				stemVisible: pin.enableLine,
-				iconId: pin.icon,
+				iconId: pin.icon?.length ? pin.icon : undefined,
 			});
 		}));
 	}
