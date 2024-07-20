@@ -1,6 +1,6 @@
 {
   "name": "@pinport/matterport",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Matterport extension for pinport",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@pinport/client": "^0.1.2",
+    "@pinport/client": "^1.0.0",
     "@types/node": "^20.14.10",
     "tsup": "^8.1.2",
     "typescript": "^5.5.3"
