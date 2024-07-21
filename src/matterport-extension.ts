@@ -1,5 +1,6 @@
 import type { Pinport, PinportClient } from "@pinport/client";
 import type { MpSdk } from "@matterport/sdk";
+import { hexToRgbPercent } from "./utils/hex-to-rgb";
 
 export class MatterportExtension {
   constructor(
@@ -111,6 +112,7 @@ export class MatterportExtension {
           attachments: [attachment.attach],
           opacity: pin.opacity,
           stemVisible: pin.enableLine,
+          color: hexToRgbPercent(pin.color || '#000'),
           iconId: pin.icon?.length ? pin.icon : undefined,
         });
       })
