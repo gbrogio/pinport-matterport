@@ -1,6 +1,6 @@
 {
   "name": "@pinport/matterport",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Matterport extension for pinport",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +31,6 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@pinport/client": "^1.0.2",
     "@types/node": "^20.14.10",
     "tsup": "^8.1.2",
     "typescript": "^5.5.3"
@@ -41,6 +40,7 @@
   },
   "homepage": "https://github.com/gbrogio/pinport#readme",
   "dependencies": {
-    "@matterport/sdk": "^1.4.24"
+    "@matterport/sdk": "^1.4.24",
+    "@pinport/client": "../../client"
   }
 }
